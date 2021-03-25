@@ -1,0 +1,137 @@
+create database proiect;
+use proiect;
+
+create table if not exists utilizator(
+	utilizator_id INT primary key auto_increment,
+	CNP VARCHAR(25),
+    nume VARCHAR(25),
+    prenume VARCHAR(25),
+    adresa VARCHAR(25),
+    IBAN VARCHAR(25),
+    numar_telefon VARCHAR(25),
+    numar_contract INT,
+    email VARCHAR(25)
+);
+
+create table if not exists student(
+	ID_utilizator INT,
+    ID_student INT primary key auto_increment,
+	an_studiu INT,
+	ore INT,
+    constraint foreign key (ID_utilizator) references utilizator(utilizator_id)
+);
+
+CREATE table if not exists profesor(
+	ID_utilizator INT,
+    ID_profesor INT PRIMARY KEY auto_increment,
+    numar_minim_ore INT,
+    numar_maxim_ore INT, 
+    departament VARCHAR(25),
+    numar_total_studenti INT,
+	constraint foreign key (ID_utilizator) references utilizator(utilizator_id)
+);
+
+create table if not exists administrator(
+	ID_utilizator INT,
+    ID_administrator INT PRIMARY KEY auto_increment,
+    super_administrator BOOLEAN,
+	constraint foreign key (ID_utilizator) references utilizator(utilizator_id)
+);
+
+create table if not exists cursuri(
+	ID_curs INT PRIMARY KEY AUTO_INCREMENT,
+    id_profesor INT,
+    descriere VARCHAR(25),
+    numar_maxim_studenti INT, 
+    numar_studenti_inscrisi INT
+);
+
+create table if not exists ponderi_note(
+	ID_curs INT PRIMARY KEY,
+    pondere_laborator int,
+    pondere_seminar int,
+    pondere_curs int
+);
+
+create table if not exists note(
+    id_nota INT PRIMARY KEY AUTO_INCREMENT,
+	id_student INT,
+    ID_curs INT,
+    nota_curs decimal(4,2),
+    nota_laborator decimal(4,2),
+    nota_seminar decimal(4,2),
+    medie decimal(4,2),
+	constraint foreign key (ID_student) references student(ID_student),
+    constraint foreign key (ID_curs) references cursuri(ID_curs),
+    constraint foreign key(ID_curs) references ponderi_note(ID_curs)
+);
+
+create table if not exists grupa_studiu(
+	ID_grupa INT primary key auto_increment,
+    materie_ID int,
+    nume_grup VARCHAR(25),
+	constraint foreign key (materie_ID) references cursuri(ID_curs)
+);
+
+create table if not exists mesaje_grup(
+	id_mesaj INT PRIMARY KEY auto_increment,
+    mesaj VARCHAR(100),
+    id_student INT,
+    id_grupa INT,
+    constraint foreign key (id_grupa) references grupa_studiu(ID_grupa)    
+);
+
+create table if not exists activitate(
+    id_activitate int primary key auto_increment,
+	ID_grupa int,
+    denumire varchar(25),
+    data_organizare DATE,
+    ora VARCHAR(25),
+    numar_minim_participanti INT,
+    numar_studenti_inscrisi INT,
+    durata_expirare INT,
+    data_creare datetime,
+    constraint foreign key (ID_grupa) references grupa_studiu(ID_grupa)
+);
+
+create table if not exists calendar(
+	ID_activitate INT PRIMARY KEY auto_increment,
+	ID_profesor int,
+    id_curs INT,
+    activitate VARCHAR(25),
+    data_inceput DATE,
+    data_incheiere DATE,
+    ora_inceput VARCHAR(5),
+    ora_incheiere VARCHAR(5),
+    zi VARCHAR(9),
+    numar_participanti int,
+    constraint foreign key (ID_profesor) references profesor(ID_profesor),
+    constraint foreign key (ID_curs) references cursuri(ID_curs)
+);
+
+create table if not exists inscriere_curs(
+	ID_inscriere INT PRIMARY KEY AUTO_INCREMENT,
+	ID_student int,
+    ID_curs int,
+    data_inscriere DATE,
+    data_renuntare DATE,
+	constraint foreign key (ID_student) references student(ID_student),
+	constraint foreign key (ID_curs) references cursuri(ID_curs)
+);
+
+create table if not exists curs_profesor(
+	ID_curs int,
+    id INT primary key auto_increment,
+    ID_profesor int,
+	constraint foreign key (ID_profesor) references profesor(ID_profesor),
+	constraint foreign key (ID_curs) references cursuri(ID_curs)
+);
+
+create table if not exists membrii_grupa(
+	ID_grupa INT,
+    ID_membru INT primary key AUTO_INCREMENT,
+    id_student INT,
+    constraint foreign key(ID_grupa) references grupa_studiu(ID_grupa),
+    constraint foreign key(id_student) references student(ID_student)
+);
+

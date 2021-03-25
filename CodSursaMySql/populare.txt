@@ -1,0 +1,91 @@
+-- Popularea bazei de date 
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('1', '6001202018293', 'Vultur', 'Ana', 'Reghin', 'RO68RZBR9234784526367674', '0741754590', '14124', 'vultrana@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('2', '6001202018294', 'Vultur', 'Andrei', 'Targu-Mures', 'RO72PORL6376878217317667', '0776354213', '3590', 'vulturandrei@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('3', '6001202018393', 'Pop', 'Adrian', 'Cluj-Napoca', 'RO06PORL3875712397164262', '0765357586', '3850', 'popadrian@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('4', '6001202008293', 'Pop', 'Matei', 'Timisoara', 'RO57PORL8589656157421998', '0798877665', '7417', 'popmatei@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('5', '6001202018263', 'Pop', 'Vasile', 'Bucuresti', 'RO02PORL9217331569626545', '0798988875', '753', 'popvasile@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('6', '5001202018293', 'Popa', 'Andrei', 'Cluj-Napoca', 'RO05RZBR4825981584689731', '0732999999', '41753', 'popaandrei@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('7', '5001202018493', 'Molodovan ', 'Andreea', 'Cluj-Napoca', 'RO85PORL9494494616968431', '0730400000', '4175', 'moldovan@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('8', '5001202028293', 'Moldovan', 'Andrei', 'Cluj-Napoca', 'RO44PORL2557913448322244', '0711223344', '5375', 'moldovanandrei@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('9', '5021202018293', 'Mircea', 'Matei', 'Cluj-Napoca', 'RO64RZBR7216457136819318', '0778954479', '7222', 'mirceamatei@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('10', '2021202018293', 'Popescu', 'Valentin', 'Cluj-Napoca', 'RO10RZBR5551354436156116', '0708954479', '1', 'popescu@yahoo.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('11', '1021202018293', 'Rus', 'Alexandra', 'Cluj-Napoca', 'RO15PORL5289233298189765', '0722954479', '2', 'rusale@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('12', '3021202018223', 'Mera', 'Octavian', 'Bucuresti', 'RO21PORL7144161822532377', '0778954411', '3', 'meraoctav@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('13', '4421202018293', 'Popovici', 'Tiberiu', 'Bucuresti', 'RO10RZBR5551389036156116', '0742536788', '4', 'popovicitiberiu@gmail.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('14', '6000105017786', 'Costea', 'Marian', 'Suceava', 'RO64RZBR8637162294549459', '0702005206', '8756', 'costeamarian@yahoo.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('15', '5000105017666', 'Costin', 'Ana', 'Galati', 'RO86RZBR6515481558372573', '0702005201', '21241', 'costinana@yahoo.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('16', '6000105017966', 'Popa', 'Valentin', 'Sibiu', 'RO93PORL7457253774193693', '0702005202', '1234', 'popaval@yahoo.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('17', '1900114086107', 'Popa', 'Dorian', 'Alba-Iulia', 'RO78PORL9499165761424133', '0702005203', '12', 'popaadaniel@yahoo.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('18', '1900203086107', 'Stoica', 'Daniel', 'Iasi', 'RO32RZBR3246419246357213', '0702005204', '123', 'stoicadanieell@yahoo.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('19', '1900103056107', 'Silaghi', 'Andrei', 'Satu-Mare', 'RO64RZBR4563932722859953', '0702005205', '1231', 'silaghiandrei01@yahoo.com');
+INSERT INTO `proiect`.`utilizator` (`utilizator_id`, `CNP`, `nume`, `prenume`, `adresa`, `IBAN`, `numar_telefon`, `numar_contract`, `email`) VALUES ('20', '1902103036107', 'Covaci', 'Dana', 'Baia-Mare', 'RO45RZBR8617844259615858', '0702005209', '234', 'covacidanana@yahoo.com');
+
+INSERT INTO `proiect`.`administrator` (`ID_utilizator`, `ID_administrator`, `super_administrator`) VALUES ('5', '1', '1');
+INSERT INTO `proiect`.`administrator` (`ID_utilizator`, `ID_administrator`, `super_administrator`) VALUES ('6', '2', '1');
+INSERT INTO `proiect`.`administrator` (`ID_utilizator`, `ID_administrator`, `super_administrator`) VALUES ('8', '3', '0');
+INSERT INTO `proiect`.`administrator` (`ID_utilizator`, `ID_administrator`, `super_administrator`) VALUES ('9', '4', '0');
+INSERT INTO `proiect`.`administrator` (`ID_utilizator`, `ID_administrator`, `super_administrator`) VALUES ('10', '5', '0');
+
+INSERT INTO `proiect`.`student` (`ID_utilizator`, `ID_student`, `an_studiu`, `ore`) VALUES ('1', '1', '1', '20');
+INSERT INTO `proiect`.`student` (`ID_utilizator`, `ID_student`, `an_studiu`, `ore`) VALUES ('2', '2', '2', '34');
+INSERT INTO `proiect`.`student` (`ID_utilizator`, `ID_student`, `an_studiu`, `ore`) VALUES ('3', '3', '3', '40');
+INSERT INTO `proiect`.`student` (`ID_utilizator`, `ID_student`, `an_studiu`, `ore`) VALUES ('4', '4', '4', '20');
+INSERT INTO `proiect`.`student` (`ID_utilizator`, `ID_student`, `an_studiu`, `ore`) VALUES ('7', '5', '1', '30');
+INSERT INTO `proiect`.`student` (`ID_utilizator`, `ID_student`, `an_studiu`, `ore`) VALUES ('11', '6', '2', '40');
+INSERT INTO `proiect`.`student` (`ID_utilizator`, `ID_student`, `an_studiu`, `ore`) VALUES ('12', '7', '2', '40');
+INSERT INTO `proiect`.`student` (`ID_utilizator`, `ID_student`, `an_studiu`, `ore`) VALUES ('13', '8', '2', '40');
+
+INSERT INTO `proiect`.`profesor` (`ID_utilizator`, `numar_minim_ore`, `numar_maxim_ore`, `departament`) VALUES ('14', '10', '50', 'Calculatoare');
+INSERT INTO `proiect`.`profesor` (`ID_utilizator`, `numar_minim_ore`, `numar_maxim_ore`, `departament`) VALUES ('15', '20', '40', 'Matematica');
+INSERT INTO `proiect`.`profesor` (`ID_utilizator`, `numar_minim_ore`, `numar_maxim_ore`, `departament`) VALUES ('16', '15', '40', 'Calculatoare');
+INSERT INTO `proiect`.`profesor` (`ID_utilizator`, `numar_minim_ore`, `numar_maxim_ore`, `departament`) VALUES ('17', '10', '35', 'Matematica');
+INSERT INTO `proiect`.`profesor` (`ID_utilizator`, `numar_minim_ore`, `numar_maxim_ore`, `departament`) VALUES ('18', '10', '45', 'Calculatoare');
+INSERT INTO `proiect`.`profesor` (`ID_utilizator`, `numar_minim_ore`, `numar_maxim_ore`, `departament`) VALUES ('19', '10', '25', 'Electronica');
+INSERT INTO `proiect`.`profesor` (`ID_utilizator`, `numar_minim_ore`, `numar_maxim_ore`, `departament`) VALUES ('20', '20', '30', 'Mecanica');
+
+INSERT INTO `proiect`.`cursuri` (`ID_curs`, `id_profesor`, `descriere`, `numar_maxim_studenti`, `numar_studenti_inscrisi`) VALUES ('1', '2', 'MSI', '10', '0');
+INSERT INTO `proiect`.`cursuri` (`ID_curs`, `id_profesor`, `descriere`, `numar_maxim_studenti`, `numar_studenti_inscrisi`) VALUES ('2', '1', 'AF', '20', '0');
+INSERT INTO `proiect`.`cursuri` (`ID_curs`, `id_profesor`, `descriere`, `numar_maxim_studenti`, `numar_studenti_inscrisi`) VALUES ('3', '3', 'POO', '30', '0');
+INSERT INTO `proiect`.`cursuri` (`ID_curs`, `id_profesor`, `descriere`, `numar_maxim_studenti`, `numar_studenti_inscrisi`) VALUES ('4', '5', 'BD', '5', '0');
+INSERT INTO `proiect`.`cursuri` (`ID_curs`, `id_profesor`, `descriere`, `numar_maxim_studenti`, `numar_studenti_inscrisi`) VALUES ('5', '6', 'CAN', '40', '0');
+INSERT INTO `proiect`.`cursuri` (`ID_curs`, `id_profesor`, `descriere`, `numar_maxim_studenti`, `numar_studenti_inscrisi`) VALUES ('6', '4', 'MSI', '50', '0');
+INSERT INTO `proiect`.`cursuri` (`ID_curs`, `descriere`, `numar_maxim_studenti`, `numar_studenti_inscrisi`) VALUES ('7', 'ALGA', '20', '0');
+INSERT INTO `proiect`.`cursuri` (`ID_curs`, `descriere`, `numar_maxim_studenti`, `numar_studenti_inscrisi`) VALUES ('8', 'SDA', '30', '0');
+INSERT INTO `proiect`.`cursuri` (`ID_curs`, `descriere`, `numar_maxim_studenti`, `numar_studenti_inscrisi`) VALUES ('9', 'PC', '40', '0');
+
+INSERT INTO `proiect`.`curs_profesor` (`ID_curs`, `ID_profesor`) VALUES ('1', '2');
+INSERT INTO `proiect`.`curs_profesor` (`ID_curs`, `ID_profesor`) VALUES ('2', '1');
+INSERT INTO `proiect`.`curs_profesor` (`ID_curs`, `ID_profesor`) VALUES ('3', '3');
+INSERT INTO `proiect`.`curs_profesor` (`ID_curs`, `ID_profesor`) VALUES ('4', '5');
+INSERT INTO `proiect`.`curs_profesor` (`ID_curs`, `ID_profesor`) VALUES ('5', '6');
+INSERT INTO `proiect`.`curs_profesor` (`ID_curs`, `ID_profesor`) VALUES ('6', '4');
+
+INSERT INTO `proiect`.`grupa_studiu` (`materie_ID`, `nume_grup`) VALUES ('1', 'MSI');
+INSERT INTO `proiect`.`grupa_studiu` (`materie_ID`, `nume_grup`) VALUES ('2', 'AF');
+INSERT INTO `proiect`.`grupa_studiu` (`materie_ID`, `nume_grup`) VALUES ('3', 'POO');
+INSERT INTO `proiect`.`grupa_studiu` (`materie_ID`, `nume_grup`) VALUES ('4', 'BD');
+INSERT INTO `proiect`.`grupa_studiu` (`materie_ID`, `nume_grup`) VALUES ('5', 'CAN');
+
+INSERT INTO `proiect`.`ponderi_note` (`ID_curs`, `pondere_laborator`, `pondere_seminar`, `pondere_curs`) VALUES ('1', '10', '20', '70');
+INSERT INTO `proiect`.`ponderi_note` (`ID_curs`, `pondere_laborator`, `pondere_seminar`, `pondere_curs`) VALUES ('3', '30', '30', '40');
+INSERT INTO `proiect`.`ponderi_note` (`ID_curs`, `pondere_laborator`, `pondere_seminar`, `pondere_curs`) VALUES ('2', '30', '30', '40');
+INSERT INTO `proiect`.`ponderi_note` (`ID_curs`, `pondere_laborator`, `pondere_seminar`, `pondere_curs`) VALUES ('4', '40', '60', '0');
+INSERT INTO `proiect`.`ponderi_note` (`ID_curs`, `pondere_laborator`, `pondere_seminar`, `pondere_curs`) VALUES ('5', '50', '0', '50');
+INSERT INTO `proiect`.`ponderi_note` (`ID_curs`, `pondere_laborator`, `pondere_seminar`, `pondere_curs`) VALUES ('6', '25', '25', '50');
+INSERT INTO `proiect`.`ponderi_note` (`ID_curs`, `pondere_laborator`, `pondere_seminar`, `pondere_curs`) VALUES ('7', '15', '15', '70');
+INSERT INTO `proiect`.`ponderi_note` (`ID_curs`, `pondere_laborator`, `pondere_seminar`, `pondere_curs`) VALUES ('8', '30', '20', '50');
+INSERT INTO `proiect`.`ponderi_note` (`ID_curs`, `pondere_laborator`, `pondere_seminar`, `pondere_curs`) VALUES ('9', '0', '50', '50');
+
+INSERT INTO `proiect`.`calendar` (`ID_activitate`, `ID_profesor`, `id_curs`, `activitate`, `data_inceput`, `data_incheiere`, `ora_inceput`, `ora_incheiere`, `zi`, `numar_participanti`) VALUES ('1', '2', '1', 'curs', '2020-01-01', '2022-01-01', '10:00', '12:00', 'Monday', 100);
+INSERT INTO `proiect`.`calendar` (`ID_activitate`, `ID_profesor`, `id_curs`, `activitate`, `data_inceput`, `data_incheiere`, `ora_inceput`, `ora_incheiere`, `zi`, `numar_participanti`) VALUES ('2', '1', '2', 'curs', '2020-01-01', '2022-01-01', '10:00', '12:00', 'Monday', 50);
+INSERT INTO `proiect`.`calendar` (`ID_activitate`, `ID_profesor`, `id_curs`, `activitate`, `data_inceput`, `data_incheiere`, `ora_inceput`, `ora_incheiere`, `zi`, `numar_participanti`) VALUES ('3', '3', '3', 'curs', '2020-01-01', '2022-01-01', '12:00', '14:00', 'Monday', 50);
+INSERT INTO `proiect`.`calendar` (`ID_activitate`, `ID_profesor`, `id_curs`, `activitate`, `data_inceput`, `data_incheiere`, `ora_inceput`, `ora_incheiere`, `zi`, `numar_participanti`) VALUES ('4', '5', '4', 'curs', '2020-01-01', '2022-01-01', '12:00', '14:00', 'Tuesday', 100);
+INSERT INTO `proiect`.`calendar` (`ID_activitate`, `ID_profesor`, `id_curs`, `activitate`, `data_inceput`, `data_incheiere`, `ora_inceput`, `ora_incheiere`, `zi`, `numar_participanti`) VALUES ('5', '6', '5', 'curs', '2022-01-01', '2024-01-01', '08:00', '10:00', 'Thursday', 100);
+INSERT INTO `proiect`.`calendar` (`ID_activitate`, `ID_profesor`, `id_curs`, `activitate`, `data_inceput`, `data_incheiere`, `ora_inceput`, `ora_incheiere`, `zi`, `numar_participanti`) VALUES ('6', '4', '6', 'curs', '2022-01-01', '2024-01-01', '08:00', '10:00', 'Wednesday', 150);
+INSERT INTO `proiect`.`calendar` (`ID_activitate`, `ID_profesor`, `id_curs`, `activitate`, `data_inceput`, `data_incheiere`, `ora_inceput`, `ora_incheiere`, `zi`, `numar_participanti`) VALUES ('7', '2', '1', 'seminar', '2020-01-01', '2022-01-01', '08:00', '10:00', 'Monday', 19);
+INSERT INTO `proiect`.`calendar` (`ID_activitate`, `ID_profesor`, `id_curs`, `activitate`, `data_inceput`, `data_incheiere`, `ora_inceput`, `ora_incheiere`, `zi`, `numar_participanti`) VALUES ('8', '2', '1', 'laborator', '2020-01-01', '2022-01-01', '14:00', '16:00', 'Thursday', 23);
+
+
+
+
+
